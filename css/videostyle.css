@@ -1,0 +1,57 @@
+
+#localVideo{
+    max-width: 100px;
+    float: left;
+    margin: 0 20px;
+    box-sizing: border-box;
+    border-radius: 2px;
+    padding: 0;
+    border-width: 0.5px;
+    border-color: #e0003b;
+    border-style: solid;
+}
+
+#remoteVideo{
+    width: 60%;
+    min-width: 230px;
+    float: center;
+    margin: 0 4px;
+    box-sizing: border-box;
+    border-radius: 2px;
+    padding: 0;
+    border-width: 0.5px;
+    border-color: #e0003b;
+    border-style: solid;
+}
+
+.countdown-text{
+  color: #e0003b;
+}
+
+.overlayz-content {
+  text-align: center;
+  margin-top: 30px;
+  color: #57585b;
+  width: 100%;
+  height: 1000px;
+}
+
+.overlayz a {
+  padding: 8px;
+  text-decoration: none;
+  font-size: 36px;
+  color: #e0003b;
+  display: block;
+  transition: 0.3s;
+}
+
+.overlayz a:hover, .overlayz a:focus {
+  color: #57585b;
+}
+
+.overlayz .closebtn {
+  position: absolute;
+  top: 20px;
+  right: 45px;
+  font-size: 60px;
+}
